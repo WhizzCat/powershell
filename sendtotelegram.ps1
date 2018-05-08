@@ -1,12 +1,8 @@
-#######################################
-#
 # In the notification setting (Execute Program), use the following as parameters with the script:
 #
 # '%device' '%name' '%status' '%sensor' '%message' '%host' '%group' '%priority'
 #
 # Copy/paste as depicted...
-#
-#######################################
 
 ### Put your telegram token in here!
 $regel = "https://api.telegram.org/bot<telegram-token-here>/sendmessage?chat_id=<insert-chat-id>&text="
